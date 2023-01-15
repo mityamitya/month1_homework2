@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(01.hello_world CXX)
+project(01_hello_world CXX)
 
 add_executable(hello_world 
     hello_world.cpp
     example.cpp
     example.h
+    move_me_out.h 
+    move_me_out.cpp
 )
 
 set_target_properties(hello_world PROPERTIES
